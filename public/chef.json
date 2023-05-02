@@ -1,173 +1,261 @@
- [
+[
+  {
+    "id": 1,
+    "chef_picture": "https://example.com/chef1.jpg",
+    "chef_name": "Munira Ahmed",
+    "years_of_experience": 10,
+    "num_of_recipes": 50,
+    "likes": 10000,
+    "recipes": [
       {
-        "id": 1,
-        "chef_picture": "https://example.com/chef1.jpg",
-        "chef_name": "Alice Smith",
-        "years_of_experience": 10,
-        "num_of_recipes": 50,
-        "likes": 10000,
-        "recipes": [
-          {
-            "recipe_name": "Pesto Pasta",
-            "ingredients": ["pasta", "basil", "pine nuts", "garlic", "parmesan cheese"],
-            "cooking_method": "Boil pasta, blend pesto ingredients, mix and serve",
-            "rating": 4.5
-          },
-          {
-            "recipe_name": "Beef Stroganoff",
-            "ingredients": ["beef", "mushrooms", "onion", "sour cream", "egg noodles"],
-            "cooking_method": "Brown beef, cook mushrooms and onion, add sour cream, serve over noodles",
-            "rating": 4.8
-          },
-          {
-            "recipe_name": "Grilled Salmon",
-            "ingredients": ["salmon fillets", "olive oil", "lemon", "garlic", "salt"],
-            "cooking_method": "Season salmon, grill for 10-15 minutes, squeeze lemon over and serve",
-            "rating": 4.7
-          }
-        ]
+        "recipe_name": "Bengali Fish Curry",
+        "ingredients": [
+          "fish",
+          "onion",
+          "tomato",
+          "ginger",
+          "garlic",
+          "turmeric",
+          "chili powder"
+        ],
+        "cooking_method": "Fry fish, saute onion, ginger, garlic, tomato and spices, add water, add fish and cook until done.",
+        "rating": 4.5
       },
       {
-        "id": 2,
-        "chef_picture": "https://example.com/chef2.jpg",
-        "chef_name": "Bob Johnson",
-        "years_of_experience": 8,
-        "num_of_recipes": 30,
-        "likes": 8000,
-        "recipes": [
-          {
-            "recipe_name": "Chicken Parmesan",
-            "ingredients": ["chicken breasts", "breadcrumbs", "egg", "tomato sauce", "mozzarella cheese"],
-            "cooking_method": "Bread chicken, bake, top with sauce and cheese, bake again",
-            "rating": 4.7
-          },
-          {
-            "recipe_name": "Spaghetti and Meatballs",
-            "ingredients": ["spaghetti", "ground beef", "breadcrumbs", "egg", "tomato sauce"],
-            "cooking_method": "Mix meatball ingredients, bake, simmer in sauce, serve over pasta",
-            "rating": 4.3
-          },
-          {
-            "recipe_name": "Beef Tacos",
-            "ingredients": ["beef", "taco shells", "lettuce", "tomato", "salsa"],
-            "cooking_method": "Cook beef, assemble tacos with toppings, serve with salsa",
-            "rating": 4.5
-          }
-        ]
+        "recipe_name": "Beef Bhuna",
+        "ingredients": [
+          "beef",
+          "onion",
+          "tomato",
+          "ginger",
+          "garlic",
+          "coriander powder",
+          "cumin powder"
+        ],
+        "cooking_method": "Cook beef, saute onion, ginger, garlic and spices, add tomato and cook until the beef is tender.",
+        "rating": 4.8
       },
       {
-        "id": 3,
-        "chef_picture": "https://example.com/chef3.jpg",
-        "chef_name": "Cathy Lee",
-        "years_of_experience": 12,
-        "num_of_recipes": 70,
-        "likes": 12000,
-        "recipes": [
-          {
-            "recipe_name": "Pad Thai",
-            "ingredients": ["rice noodles", "shrimp", "tofu", "eggs", "peanuts"],
-            "cooking_method": "Soak noodles, stir-fry shrimp, tofu, and eggs, add sauce and noodles, top with peanuts",
-            "rating": 4.9
-          },
-          {
-            "recipe_name": "Beef and Broccoli Stir-fry",
-            "ingredients": ["beef", "broccoli", "soy sauce", "garlic", "ginger"],
-            "cooking_method": "Stir-fry beef, garlic, and ginger, add broccoli and sauce, cook until tender",
-            "rating": 4.6
-          },
-          {
-            "recipe_name": "Bibimbap",
-            "ingredients": ["rice", "beef", "spinach", "bean sprouts", "carrots"],
-            "cooking_method": "Cook rice, stir-fry beef and vegetables, top with egg and sauce, serve over rice",
-            "rating": 4.7
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "chef_picture": "https://example.com/chef4.jpg",
-        "chef_name": "David Kim",
-        "years_of_experience": 6,
-        "num_of_recipes": 40,
-        "likes": 5000,
-        "recipes": [
-          {
-            "recipe_name": "Sushi Rolls",
-            "ingredients": ["sushi rice", "nori", "fish", "vegetables", "wasabi", "soy sauce"],
-            "cooking_method": "Cook rice, prepare ingredients, roll sushi, slice and serve",
-            "rating": 4.8
-          },
-          {
-            "recipe_name": "Korean BBQ Ribs",
-            "ingredients": ["beef ribs", "soy sauce", "garlic", "ginger", "brown sugar"],
-            "cooking_method": "Marinate ribs, grill or bake until cooked, serve with sauce",
-            "rating": 4.5
-          },
-          {
-            "recipe_name": "Chicken Teriyaki",
-            "ingredients": ["chicken thighs", "soy sauce", "mirin", "sake", "brown sugar"],
-            "cooking_method": "Marinate chicken, grill or pan-fry until cooked, brush with sauce",
-            "rating": 4.7
-          }
-        ]
+        "recipe_name": "Mishti Doi",
+        "ingredients": ["milk", "yogurt", "sugar"],
+        "cooking_method": "Boil milk, cool it, add yogurt and sugar, mix well, cover and keep it in a warm place for 4-5 hours.",
+        "rating": 4.7
       }
-      
-      {
-        "id": 5,
-        "chef_picture": "https://example.com/chef5.jpg",
-        "chef_name": "Emily Chen",
-        "years_of_experience": 9,
-        "num_of_recipes": 60,
-        "likes": 9000,
-        "recipes": [
-          {
-            "recipe_name": "Margherita Pizza",
-            "ingredients": ["pizza dough", "tomato sauce", "mozzarella cheese", "fresh basil"],
-            "cooking_method": "Roll out dough, top with sauce and cheese, bake in oven, top with basil",
-            "rating": 4.6
-          },
-          {
-            "recipe_name": "Beef Burgers",
-            "ingredients": ["ground beef", "buns", "lettuce", "tomato", "onion", "cheese"],
-            "cooking_method": "Form patties, grill or cook on stove, assemble burger with toppings",
-            "rating": 4.8
-          },
-          {
-            "recipe_name": "Ratatouille",
-            "ingredients": ["eggplant", "zucchini", "tomatoes", "onion", "garlic", "herbs"],
-            "cooking_method": "Slice vegetables, sauté with herbs and garlic, bake until tender",
-            "rating": 4.4
-          }
-        ]
-      },
-
-      {
-        "id": 6,
-        "chef_picture": "https://example.com/chef6.jpg",
-        "chef_name": "Frank Wang",
-        "years_of_experience": 15,
-        "num_of_recipes": 90,
-        "likes": 15000,
-        "recipes": [
-          {
-            "recipe_name": "Beef Wellington",
-            "ingredients": ["beef fillet", "puff pastry", "mushrooms", "prosciutto", "mustard"],
-            "cooking_method": "Sear beef, layer with prosciutto and mushrooms, wrap in pastry, bake until golden brown",
-            "rating": 4.9
-          },
-          {
-            "recipe_name": "Crème Brûlée",
-            "ingredients": ["heavy cream", "egg yolks", "sugar", "vanilla extract"],
-            "cooking_method": "Mix cream, yolks, and sugar, cook over low heat, chill and caramelize sugar topping",
-            "rating": 4.7
-          },
-          {
-            "recipe_name": "Lobster Bisque",
-            "ingredients": ["lobster", "heavy cream", "tomato paste", "sherry", "garlic"],
-            "cooking_method": "Cook lobster shells, make broth, sauté garlic, add tomato paste and broth, add cream and sherry, purée",
-            "rating": 4.8
-          }
-        ]
-      }
-      
     ]
+  },
+  {
+    "id": 2,
+    "chef_picture": "https://example.com/chef2.jpg",
+    "chef_name": "Mosharraf Karim",
+    "years_of_experience": 8,
+    "num_of_recipes": 30,
+    "likes": 8000,
+    "recipes": [
+      {
+        "recipe_name": "Chicken Roast",
+        "ingredients": [
+          "chicken",
+          "onion",
+          "ginger",
+          "garlic",
+          "yogurt",
+          "chili powder"
+        ],
+        "cooking_method": "Marinate chicken with spices, onion, ginger, garlic, and yogurt, roast until cooked.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Shahi Tukra",
+        "ingredients": [
+          "bread",
+          "milk",
+          "sugar",
+          "cardamom",
+          "saffron",
+          "ghee"
+        ],
+        "cooking_method": "Fry bread in ghee, boil milk, add sugar, cardamom and saffron, add fried bread, cook until milk is reduced.",
+        "rating": 4.3
+      },
+      {
+        "recipe_name": "Beef Haleem",
+        "ingredients": [
+          "beef",
+          "lentil",
+          "wheat",
+          "barley",
+          "spices",
+          "onion",
+          "garlic"
+        ],
+        "cooking_method": "Cook beef, lentil, wheat, and barley, saute onion and garlic, mix everything together and cook until it forms a thick paste.",
+        "rating": 4.5
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "chef_picture": "https://example.com/chef3.jpg",
+    "chef_name": "Masuma Rahman Nabila",
+    "years_of_experience": 15,
+    "num_of_recipes": 90,
+    "likes": 15000,
+    "recipes": [
+      {
+        "recipe_name": "Shorshe Ilish",
+        "ingredients": [
+          "hilsa fish",
+          "mustard oil",
+          "mustard seeds",
+          "green chili",
+          "salt",
+          "turmeric"
+        ],
+        "cooking_method": "Marinate fish with salt and turmeric, make a paste of mustard seeds and green chili, fry fish and pour mustard paste over it.",
+        "rating": 4.9
+      },
+      {
+        "recipe_name": "Beef Rezala",
+        "ingredients": [
+          "beef",
+          "yogurt",
+          "onion",
+          "garlic",
+          "ginger",
+          "ghee",
+          "spices"
+        ],
+        "cooking_method": "Cook beef with spices, saute onion, ginger, and garlic, add yogurt and cook until beef is tender.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Chomchom",
+        "ingredients": ["chenna", "sugar", "water", "milk"],
+        "cooking_method": "Make chenna from milk, shape into cylindrical balls, boil sugar and water, add chenna and cook until soft.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "chef_picture": "https://example.com/chef4.jpg",
+    "chef_name": "Rushna Begum",
+    "years_of_experience": 16,
+    "num_of_recipes": 80,
+    "likes": 12000,
+    "recipes": [
+      {
+        "recipe_name": "Beef Karahi",
+        "ingredients": [
+          "beef",
+          "tomato",
+          "onion",
+          "ginger",
+          "garlic",
+          "green chili",
+          "coriander"
+        ],
+        "cooking_method": "Cook beef, saute onion, tomato, ginger, garlic, and spices, add green chili and coriander, cook until the beef is tender.",
+        "rating": 4.9
+      },
+      {
+        "recipe_name": "Nihari",
+        "ingredients": ["beef", "spices", "onion", "ginger", "garlic"],
+        "cooking_method": "Cook beef, add spices, onion, ginger, and garlic, cook until the beef is tender and the gravy is thick.",
+        "rating": 4.7
+      },
+      {
+        "recipe_name": "Gulab Jamun",
+        "ingredients": [
+          "milk powder",
+          "flour",
+          "sugar",
+          "cardamom",
+          "rose water",
+          "oil"
+        ],
+        "cooking_method": "Mix milk powder, flour, and oil, form balls, fry in oil, boil sugar and water, add cardamom and rose water, add fried balls.",
+        "rating": 4.8
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "chef_picture": "https://example.com/chef5.jpg",
+    "chef_name": "Tareq Taylor",
+    "years_of_experience": 20,
+    "num_of_recipes": 120,
+    "likes": 20000,
+    "recipes": [
+      {
+        "recipe_name": "Swedish Meatballs",
+        "ingredients": [
+          "beef",
+          "bread crumbs",
+          "onion",
+          "cream",
+          "butter",
+          "lingonberry jam"
+        ],
+        "cooking_method": "Mix beef, bread crumbs, and onion, form balls, cook in butter, add cream, serve with lingonberry jam.",
+        "rating": 4.5
+      },
+      {
+        "recipe_name": "Gravlax",
+        "ingredients": ["salmon", "salt", "sugar", "dill", "mustard sauce"],
+        "cooking_method": "Mix salt, sugar, and dill, coat salmon, cover and refrigerate for 2-3 days, slice thinly, serve with mustard sauce.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Potato Gratin",
+        "ingredients": ["potatoes", "cream", "garlic", "thyme", "cheese"],
+        "cooking_method": "Slice potatoes, mix with cream, garlic, and thyme, bake with cheese until golden brown.",
+        "rating": 4.7
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "chef_picture": "https://example.com/chef6.jpg",
+    "chef_name": "Nadia Hussain",
+    "years_of_experience": 15,
+    "num_of_recipes": 90,
+    "likes": 15000,
+    "recipes": [
+      {
+        "recipe_name": "Biryani",
+        "ingredients": [
+          "rice",
+          "chicken",
+          "potato",
+          "onion",
+          "garlic",
+          "ginger",
+          "bay leaf"
+        ],
+        "cooking_method": "Marinate chicken, fry potatoes and onions, cook chicken with spices and potatoes, layer with rice and cook until done.",
+        "rating": 4.8
+      },
+      {
+        "recipe_name": "Korma",
+        "ingredients": [
+          "chicken",
+          "yogurt",
+          "almond",
+          "coconut",
+          "onion",
+          "garlic",
+          "ginger"
+        ],
+        "cooking_method": "Cook chicken, saute onion, ginger, garlic, almond, and coconut, blend with yogurt, add chicken, and cook until the sauce thickens.",
+        "rating": 4.6
+      },
+      {
+        "recipe_name": "Rasgulla",
+        "ingredients": ["milk", "lemon juice", "sugar", "water"],
+        "cooking_method": "Boil milk, add lemon juice, drain the whey, knead the cheese, shape into balls, cook in sugar syrup.",
+        "rating": 4.9
+      }
+    ]
+  }
+]
