@@ -38,7 +38,13 @@
       },
       {
         "recipe_name": "Mishti Doi",
-        "ingredients": ["milk", "yogurt", "sugar"],
+        "ingredients": [
+          "milk",
+          "yogurt",
+          "sugar",
+          "coriander powder",
+          "cumin powder"
+        ],
         "cooking_method": "Boil milk, cool it, add yogurt and sugar, mix well, cover and keep it in a warm place for 4-5 hours.",
         "rating": 4.7
       }
@@ -133,7 +139,7 @@
       },
       {
         "recipe_name": "Chomchom",
-        "ingredients": ["chenna", "sugar", "water", "milk"],
+        "ingredients": ["chenna", "sugar", "water", "milk", "spices"],
         "cooking_method": "Make chenna from milk, shape into cylindrical balls, boil sugar and water, add chenna and cook until soft.",
         "rating": 4.8
       }
@@ -258,7 +264,7 @@
       },
       {
         "recipe_name": "Rasgulla",
-        "ingredients": ["milk", "lemon juice", "sugar", "water"],
+        "ingredients": ["milk", "lemon juice", "sugar", "water", "ginger"],
         "cooking_method": "Boil milk, add lemon juice, drain the whey, knead the cheese, shape into balls, cook in sugar syrup.",
         "rating": 4.9
       }
